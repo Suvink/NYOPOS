@@ -1,5 +1,7 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+   
 }
 .color-green{
     background-color: #4caf50;
@@ -14,6 +16,9 @@ body{
     background-color: #92EFB2;
     color: #605BA8;
 }
+.color-blue{
+    background-color: #90CAEB;
+}
 .dishitem{
     background-color: #605BA8;
     color: rgb(255, 255, 255);
@@ -23,3 +28,27 @@ body{
     margin-bottom: 1%;
     padding: 2%
 }
+.bottomrow{
+    margin-top: 1%
+}
+#bottompaymtrow{
+    background-color: #84DF98;
+    margin-top: 1%;
+}
+.btn-order{
+    background-color: #F40000;
+}
+.btn-cancelorder{
+    background-color: #00A55A
+}
+.menuitem{
+    height: 280px;
+    width: 175px;
+}
+.menucard{
+    margin: 4%
+}
+.btn-floating{
+    margin-bottom: 5%;
+}
+
