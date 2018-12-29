@@ -1,0 +1,61 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+   
+}
+.color-green{
+    background-color: #4caf50;
+}
+.color-grey{
+    background-color: #F5F5F5;
+}
+.text-purple{
+    color: #605BA8;
+}
+.tablehead{
+    background-color: #92EFB2;
+    color: #605BA8;
+}
+.color-blue{
+    background-color: #90CAEB;
+}
+.dishitem{
+    background-color: #605BA8;
+    color: rgb(255, 255, 255);
+}
+#ordersection{
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+}
+.bottomrow{
+    margin-top: 1%
+}
+#bottompaymtrow{
+    background-color: #84DF98;
+}
+.btn-order{
+    background-color: #F40000;
+}
+.btn-cancelorder{
+    background-color: #00A55A
+}
+.menuitem{
+    height: 280px;
+    width: 175px;
+}
+.menucard{
+    margin: 4%
+}
+.btn-floating{
+    margin-bottom: 5%;
+}
+.btn-group-xs > .btn, .btn-xs {
+    padding  : .25rem .4rem;
+    font-size  : .875rem;
+    line-height  : .5;
+    border-radius : .2rem;
+  }
