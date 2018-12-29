@@ -1,7 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     height: 100%;
-   
 }
 .color-green{
     background-color: #4caf50;
@@ -31,8 +30,9 @@ body{
     margin-right: 2%;
     padding: 2%;
 }
-.bottomrow{
-    margin-top: 1%
+.bottombar{
+    bottom: 0;
+    vertical-align: baseline
 }
 #bottompaymtrow{
     background-color: #84DF98;
@@ -47,12 +47,7 @@ body{
     height: 280px;
     width: 175px;
 }
-.menucard{
-    margin: 4%
-}
-.btn-floating{
-    margin-bottom: 5%;
-}
+
 .btn-group-xs > .btn, .btn-xs {
     padding  : .25rem .4rem;
     font-size  : .875rem;
