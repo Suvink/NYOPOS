@@ -1,0 +1,25 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.color-green{
+    background-color: #4caf50;
+}
+.color-grey{
+    background-color: #F5F5F5;
+}
+.text-purple{
+    color: #605BA8;
+}
+.tablehead{
+    background-color: #92EFB2;
+    color: #605BA8;
+}
+.dishitem{
+    background-color: #605BA8;
+    color: rgb(255, 255, 255);
+}
+#ordersection{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 2%
+}
