@@ -1,154 +1,111 @@
 <html lang=en>
-    <head>
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <!-- Custom Styling  -->
-        <link href="style.css" rel="stylesheet">
-        <!-- font-awesome -->
-        <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
-        <!--Source Sans font-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <!--meta tags-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-        <title>Point of Sale</title>
-    </head>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom Styling  -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+    <!--Source Sans font-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <title>Point of Sale</title>
+</head>
 
-    <body>
-
-
-            <nav class="navbar navbar-expand-lg navbar-dark color-green">
-                <a class="navbar-brand" href="#">NYO POS</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse float-right">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Thu 27 Dec 2018 04:07 PM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Darius Tanz</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+<body>
 
 
-        <!--Main Content-->
-        <div class="row">
+<nav class="navbar navbar-expand-lg navbar-dark color-green">
+    <a class="navbar-brand" href="#">NYO POS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <!--Order Details-->
-            <div class="col-4 color-grey" id="ordersection">
-                <div class="row">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Customer Name" aria-label="Customer Name" aria-describedby="basic-addon2">
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Reference Notes" aria-label="Reference Notes" aria-describedby="basic-addon2">
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <table class="table text-purple text-center">
-                        <thead>
-                            <tr class="tablehead">
-                                <th scope="col">Dish</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Qty</th>
-                                <th scope="col">Total</th>
-                                <th scope="col"><i class="fas fa-trash"></i></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row"><button type="button" class="btn btn-sm dishitem">Moda Pala Malluma</button></th>
-                                <td>LKR 450.00</td>
-                                <td><input type="text" class="form-control input-sm" placeholder="Qty." aria-label="Qty."></td>
-                                <td>LKR 450.00</td>
-                                <td><i class="fas fa-trash"></i></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><button type="button" class="btn dishitem btn-sm">Moda Pala Malluma</button></th>
-                                <td>LKR 450.00</td>
-                                <td><input type="text" class="form-control input-sm" placeholder="Qty." aria-label="Qty."></td>
-                                <td>LKR 450.00</td>
-                                <td><i class="fas fa-trash"></i></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><button type="button" class="btn dishitem btn-sm">Moda Pala Malluma</button></th>
-                                <td>LKR 450.00</td>
-                                <td><input type="text" class="form-control input-sm" placeholder="Qty." aria-label="Qty."></td>
-                                <td>LKR 450.00</td>
-                                <td><i class="fas fa-trash"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+    <div class="collapse navbar-collapse float-right">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Thu 27 Dec 2018 04:07 PM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Darius Tanz</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-                <!--Bottom Elements-->
-                <div class="row bottombar">
-                    <!--Item Summery-->
-                    <table class="table text-purple text-center">
-                        <thead>
-                            <tr class="text-purple color-blue">
-                                <th class="text-left">Total Items:</th>
-                                <th class="text-right">2 Dcs</th>
-                                <th class="text-left">Total Amount:</th>
-                                <th class="text-right">LKR 950.00</th>
-                            </tr>
-                        </thead>
-                    </table>
+<div class="color-grey d-flex flex-column mt-4 ml-3 p-3" id="order_section">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Customer Name" aria-label="Customer Name" aria-describedby="basic-addon2">
+    </div>
 
-                    <!--Amount Summery-->
-                    <table class="table text-purple">
-                        <thead>
-                            <tr class="text-purple color-blue">
-                                <th class="text-left">Discount:</th>
-                                <th class="text-right">LKR 10.00</th>
-                                <th class="text-left">Charges/Taxes:</th>
-                                <th class="text-right">LKR 50.00</th>
-                            </tr>
-                        </thead>
-                    </table>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Reference Notes" aria-label="Reference Notes" aria-describedby="basic-addon2">
+    </div>
 
-                    <!--Amount Payable-->
-                    <table class="table text-purple text-center" id="bottompaymtrow">
-                        <thead>
-                            <tr class="text-purple">
-                                <th class="text-left">Amount Payable:</th>
-                                <th class="text-right">LKR 10.00</th>
-                            </tr>
-                        </thead>
-                    </table>
-                </div>
-
-                <!--Button Bar-->
-                <div class="row bottombar">
-                    <button type="button" class="btn btn-cancelorder btn-lg btn-block"><i class="fas fa-times"></i>Cancel Order</button>
-                    <button type="button" class="btn btn-order btn-lg btn-block"><i class="fas fa-check"></i>Place Order</button>
-                </div>
-            </div>
+    <table class="table text-purple text-center">
+        <thead>
+        <tr class="tablehead">
+            <th scope="col">Dish</th>
+            <th scope="col">Price</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Total</th>
+            <th scope="col" class="align-middle"> <i class="fas fa-trash"></i></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row"><button type="button" class="btn btn-sm dishitem">Moda Pala Malluma</button></th>
+            <td>LKR 450.00</td>
+            <td><input type="text" class="form-control input-sm" placeholder="Qty." aria-label="Qty."></td>
+            <td>LKR 450.00</td>
+            <td class="align-middle"><i class="fas fa-trash"></i></td>
+        </tr>
+        <tr>
+            <th scope="row"><button type="button" class="btn dishitem btn-sm">Moda Pala Malluma</button></th>
+            <td>LKR 450.00</td>
+            <td><input type="text" class="form-control input-sm" placeholder="Qty." aria-label="Qty."></td>
+            <td>LKR 450.00</td>
+            <td class="align-middle"><i class="fas fa-trash"></i></td>
+        </tr>
+        <tr>
+            <th scope="row"><button type="button" class="btn dishitem btn-sm">Moda Pala Malluma</button></th>
+            <td>LKR 450.00</td>
+            <td><input type="text" class="form-control input-sm" placeholder="Qty." aria-label="Qty."></td>
+            <td>LKR 450.00</td>
+            <td class="align-middle"><i class="fas fa-trash"></i></td>
+        </tr>
+        </tbody>
+    </table>
 
 
+    <!--Amount Summery-->
+    <table class="table text-purple text-center mt-auto mb-2 p-0">
+        <tr class="text-purple color-blue">
+            <th class="text-left">Total Items:</th>
+            <th class="text-right">2 Dcs</th>
+            <th class="text-left">Total Amount:</th>
+            <th class="text-right">LKR 950.00</th>
+        </tr>
+        <tr class="text-purple color-blue">
+            <th class="text-left">Discount:</th>
+            <th class="text-right">LKR 10.00</th>
+            <th class="text-left">Charges/Taxes:</th>
+            <th class="text-right">LKR 50.00</th>
+        </tr>
+        <tr class="text-purple color-blue">
+            <th colspan="3" class="text-left">Amount Payable:</th>
+            <th class="text-right">LKR 10.00</th>
+        </tr>
+    </table>
 
-            <!--Menu-->
-            <div class="col-8">
-            
-               
-            </div>
-
-
-           
-        
-        </div>
+    <button type="button" class="btn btn-cancelorder btn-lg btn-block "><i class="fas fa-times"></i>Cancel Order</button>
+    <button type="button" class="btn btn-order btn-lg btn-block"><i class="fas fa-check"></i>Place Order</button>
+</div>
 
 
 
@@ -160,12 +117,10 @@
 
 
 
-
-
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <!-- Javascript File -->
-        <script type="text/javascript" src="script.js"></script>
-    </body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Javascript File -->
+<script type="text/javascript" src="script.js"></script>
+</body>
